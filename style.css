@@ -1,0 +1,383 @@
+nav{
+    background: purple;
+    color: gold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 900px;
+    padding-right: 30px;
+    position: fixed;
+    width: 100%;
+}
+
+
+a.menu{
+    color: gold;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right 30px;
+    font-family: "Merriweather";
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1{
+    color:goldenrod;
+    font-family: "Merriweather";
+}
+
+h2{
+    color:purple;
+    font-family: "Merriweather";
+}
+
+h3{
+    color:black;
+    font-family: "Merriweather";
+}
+
+a.menu:hover{
+    color:purple;
+    background: gold;
+    font-family: "Merriweather";
+    font-weight: 900;
+    font-style: normal;
+    padding: 30px;
+}
+
+body{
+    margin: 0px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    background: lavenderblush;
+}
+
+/**comment**/
+
+div{
+    padding-top: 200px;
+    border: 2px lavenderblush solid;
+    margin-bottom: 50px;
+    
+}
+
+
+
+div#profile{
+    padding: 50px;
+    border: 2px lavenderblush solid;
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 100px;
+    vertical-align: middle;
+}
+
+div#bio{
+    padding: 50px;
+    width: 800px;
+    height: 200px;
+    border: 2px lavenderblush solid;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 100px;
+}
+
+div#scroll{
+    padding: 100px;
+    background: purple;
+    color: gold;
+    text-decoration: none;
+    font-weight: 700;
+    font-style: bold;
+    font-family: "Merriweather";
+    margin-bottom: 0px;
+    
+}
+
+div#overview{
+    padding: 100px;
+    width: 800px;
+    border: 2px lavenderblush solid;
+    display: inline-block;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+div#officers{
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    grid-column-gap: 10px;
+    background: purple;
+    border: 2px purple solid;
+}
+
+div#Hogan{
+    padding: 100px;
+    width: 500px;
+    border: 2px purple solid;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    background: lavenderblush;
+}
+
+div#Klink{
+    padding: 100px;
+    width: 500px;
+    border: 2px purple solid;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    background: lavenderblush;
+}
+
+div#Schultz{
+    padding: 50px;
+    width: 500px;
+    display: inline-block;
+    border: 2px lavenderblush solid;
+    margin-left: 450px;
+}
+
+div#prisoners{
+    display: flex;
+    padding: 10px;
+    grid-column-gap: 10px;
+    background: purple;
+    border: 2px purple solid;
+}
+
+div#Kinch{
+    width: 25%;
+    border: 2px purple solid;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 30px;
+    background: lavenderblush;
+}
+
+div#Newkirk{
+    width: 25%;
+    border: 2px purple solid;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 30px;
+    background: lavenderblush;
+}
+
+div#LeBeau{
+    width: 25%;
+    border: 2px purple solid;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 30px;
+    background: lavenderblush;
+}
+
+div#Carter{
+    width: 25%;
+    border: 2px purple solid;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 30px;
+    background: lavenderblush;
+}
+
+div#link{
+    background: purple;
+    border: 2px purple solid;
+    width: 10%;
+    margin-left: 650px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-top: 15px;
+    padding: 30px;
+}
+
+a.link{
+    color: gold;
+    text-decoration: none;
+    font-weight: 700;
+    font-style: bold;
+    font-family: "Merriweather";
+}
+
+div#crobat{
+    display: flex;
+    padding-top: 10px;
+    margin-top: 10px;
+    height: 625px;
+    padding-bottom: 10px;
+    border: 2px lavenderblush solid;
+}
+
+div#crobatImage{
+    padding-top: 10px;
+    padding-left: 300px;
+    padding-right: 50px;
+    margin-left: 50px;
+    width: 500px;
+    height: 650px;
+    vertical-align: middle;
+    border: 2px lavenderblush solid;
+}
+
+div#crobatDate{
+    padding-top: 260px;
+    padding-left: 35px;
+    margin-left: 30px;
+    margin-right: 1000px;
+    vertical-align: middle;
+    border: 2px lavenderblush solid;
+}
+
+div#noctowl{
+    display: flex;
+    padding-top: 10px;
+    margin-top: 10px;
+    height: 625px;
+    padding-bottom: 10px;
+    border: 2px lavenderblush solid;
+}
+
+div#noctowlImage{
+    padding-top: 10px;
+    padding-left: 300px;
+    padding-right: 50px;
+    margin-left: 50px;
+    width: 500px;
+    height: 650px;
+    vertical-align: middle;
+    border: 2px lavenderblush solid;
+}
+
+div#noctowlDate{
+    padding-top: 260px;
+    padding-left: 35px;
+    margin-left: 30px;
+    margin-right: 1000px;
+    vertical-align: middle;
+    border: 2px lavenderblush solid;
+}
+
+div#venipede{
+    display: flex;
+    padding-top: 10px;
+    margin-top: 10px;
+    height: 625px;
+    padding-bottom: 10px;
+    border: 2px lavenderblush solid;
+}
+
+div#venipedeImage{
+    padding-top: 10px;
+    padding-left: 300px;
+    padding-right: 50px;
+    margin-left: 50px;
+    width: 500px;
+    height: 650px;
+    vertical-align: middle;
+    border: 2px lavenderblush solid;
+}
+
+div#venipedeDate{
+    padding-top: 260px;
+    padding-left: 35px;
+    margin-left: 30px;
+    margin-right: 1000px;
+    vertical-align: middle;
+    border: 2px lavenderblush solid;
+}
+
+div#tentacool{
+    display: flex;
+    padding-top: 10px;
+    margin-top: 10px;
+    height: 625px;
+    padding-bottom: 10px;
+    border: 2px lavenderblush solid;
+}
+
+div#tentacoolImage{
+    padding-top: 10px;
+    padding-left: 300px;
+    padding-right: 50px;
+    margin-left: 50px;
+    width: 500px;
+    height: 650px;
+    vertical-align: middle;
+    border: 2px lavenderblush solid;
+}
+
+div#tentacoolDate{
+    padding-top: 260px;
+    padding-left: 35px;
+    margin-left: 30px;
+    margin-right: 1000px;
+    vertical-align: middle;
+    border: 2px lavenderblush solid;
+}
+
+div#buneary{
+    display: flex;
+    padding-top: 10px;
+    margin-top: 10px;
+    height: 625px;
+    padding-bottom: 10px;
+    border: 2px lavenderblush solid;
+}
+
+div#bunearyImage{
+    padding-top: 10px;
+    padding-left: 300px;
+    padding-right: 50px;
+    margin-left: 50px;
+    width: 500px;
+    height: 650px;
+    vertical-align: middle;
+    border: 2px lavenderblush solid;
+}
+
+div#bunearyDate{
+    padding-top: 260px;
+    padding-left: 35px;
+    margin-left: 30px;
+    margin-right: 1000px;
+    vertical-align: middle;
+    border: 2px lavenderblush solid;
+}
+
+div#bronzor{
+    display: flex;
+    padding-top: 10px;
+    margin-top: 10px;
+    height: 625px;
+    padding-bottom: 10px;
+    border: 2px lavenderblush solid;
+}
+
+div#bronzorImage{
+    padding-top: 10px;
+    padding-left: 300px;
+    padding-right: 50px;
+    margin-left: 50px;
+    width: 500px;
+    height: 650px;
+    vertical-align: middle;
+    border: 2px lavenderblush solid;
+}
+
+div#bronzorDate{
+    padding-top: 260px;
+    padding-left: 35px;
+    margin-left: 30px;
+    margin-right: 1000px;
+    vertical-align: middle;
+    border: 2px lavenderblush solid;
+}
